@@ -1,0 +1,20 @@
+                                  __Fourier transform in Radio Astronomy__ 
+
+
+  * Fourier transform is a mathematial function that decomposes a waveform , which is a function of time, into the frequencies that make it up. Fourier transform is widely used in radio astronomy for data processing and its very important component of interferometry and aperture synthesis.  Fourier transform decomposes a signal into its sinusoidal components. Fourier transform relates interference pattern to the radio intensity on the sky.
+  * discretely sampled functions re discrete Fourier transform (DFT) which is computed by fast Fourier transform (DFT). DFT is used in digital electronics and signal procoessing. 
+  * In astronomical observations, the signals are discretely sampled at constant intervals. 
+  * __Visiblities__ : https://en.wikipedia.org/wiki/Interferometric_visibility
+ 
+
+Antenna -> Reciever-DSP-> generates interference pattern in correlator
+
+   
+
+  * In modern radio astronomy is now based on digital signal processing (DSP), the continous radio waves are be like a series of discrete digital samples of those waves. An wonderful theorem that validates DSP and has a robust suggestion for information theory is known as Nyquist-Shanon theorem aka sampling theorem.  That any bandwith continous function confined with a fq range of \Delta\nu maybe reonstructed from uniformly spaced samples separated in time. The critical sampling rate is called Nyquist rate. The Nuquist-sampled time series consists of all information of original continous signal. 
+
+  * Signals can be expressed as a sum of sinusoids in Fourirer theory.
+
+  * The interferometer measures the interference of signal from all the stations, and the interference pattrern shows source brightness. 
+
+  * The water vapour in the cloud causes phase fluctuation which leads to less sensitivity, which can be corrected by atmospheric phase correction. 
